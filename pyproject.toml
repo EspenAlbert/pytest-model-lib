@@ -9,7 +9,7 @@ requires-python = ">=3.13"
 license = "MIT"
 license-files = ["LICENSE"]
 dependencies = [
-  "model-lib",
+  "model-lib>=0.99.0",
 ]
 
 [project.entry-points.pytest11]
