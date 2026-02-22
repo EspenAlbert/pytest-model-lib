@@ -3,7 +3,7 @@
 from pytest_model_lib.plugin import skip_unless_env
 from pytest_model_lib.plugin import static_env_vars
 
-VERSION = "0.1.0"
+VERSION = "0.2.0"
 __all__ = [
     "skip_unless_env",
     "static_env_vars",

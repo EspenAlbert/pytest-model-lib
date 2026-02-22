@@ -21,3 +21,8 @@ name: pytest_configure
 ts: 2026-02-22 20:42:37.000179+00:00
 type: keep_private
 full_path: plugin.pytest_configure
+---
+name: 0.2.0
+ts: 2026-02-22 20:45:52.528732+00:00
+type: release
+old_version: 0.1.0

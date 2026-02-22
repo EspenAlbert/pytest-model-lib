@@ -17,7 +17,7 @@
 
 ### function: `skip_unless_env`
 - [source](../../pytest_model_lib/plugin.py#L7)
-> **Since:** unreleased
+> **Since:** 0.2.0
 
 ```python
 def skip_unless_env(env_var: str) -> str:
@@ -30,14 +30,14 @@ Returns the env var value or skips the test/fixture.
 
 | Version | Change |
 |---------|--------|
-| unreleased | Made public |
+| 0.2.0 | Made public |
 <!-- === OK_EDIT: pkg-ext skip_unless_env_def === -->
 <!-- === DO_NOT_EDIT: pkg-ext static_env_vars_def === -->
 <a id="static_env_vars_def"></a>
 
 ### function: `static_env_vars`
 - [source](../../pytest_model_lib/plugin.py#L19)
-> **Since:** unreleased
+> **Since:** 0.2.0
 
 ```python
 def static_env_vars(tmp_path, monkeypatch) -> StaticSettings:
@@ -48,5 +48,5 @@ def static_env_vars(tmp_path, monkeypatch) -> StaticSettings:
 
 | Version | Change |
 |---------|--------|
-| unreleased | Made public |
+| 0.2.0 | Made public |
 <!-- === OK_EDIT: pkg-ext static_env_vars_def === -->
