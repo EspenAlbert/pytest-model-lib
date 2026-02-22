@@ -1,0 +1,23 @@
+name: __ROOT__
+ts: 2026-02-22 20:42:36.524723+00:00
+type: group_module
+module_path: plugin
+---
+name: skip_unless_env
+ts: 2026-02-22 20:42:36.999276+00:00
+type: make_public
+details: created in plugin.py
+full_path: plugin.skip_unless_env
+group: __ROOT__
+---
+name: static_env_vars
+ts: 2026-02-22 20:42:37.000126+00:00
+type: make_public
+details: created in plugin.py
+full_path: plugin.static_env_vars
+group: __ROOT__
+---
+name: pytest_configure
+ts: 2026-02-22 20:42:37.000179+00:00
+type: keep_private
+full_path: plugin.pytest_configure
