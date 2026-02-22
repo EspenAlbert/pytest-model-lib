@@ -4,11 +4,16 @@
 [project]
 name = "pytest-model-lib"
 version = "0.1.0"
-description = "Package description"
+description = "pytest plugin for model-lib"
 requires-python = ">=3.13"
 license = "MIT"
 license-files = ["LICENSE"]
-dependencies = []
+dependencies = [
+  "model-lib",
+]
+
+[project.entry-points.pytest11]
+model_lib = "pytest_model_lib.plugin"
 
 [build-system]
 requires = ["hatchling"]
