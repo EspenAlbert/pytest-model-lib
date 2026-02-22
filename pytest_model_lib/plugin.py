@@ -12,10 +12,8 @@ def skip_unless_env(env_var: str) -> str:
     return value
 
 
-def pytest_configure(config):
-    config.addinivalue_line(
-        "markers", "manual: test requires manual env setup (not run in CI)"
-    )
+def pytest_configure(config: pytest.Config) -> None:
+    config.addinivalue_line("markers", "manual: test requires manual env setup (not run in CI)")
 
 
 @pytest.fixture
