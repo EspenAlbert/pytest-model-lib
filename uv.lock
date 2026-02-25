@@ -22,7 +22,7 @@ wheels = [
 
 [[package]]
 name = "ask-shell"
-version = "0.3.2"
+version = "0.4.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "model-lib", extra = ["toml"] },
@@ -31,9 +31,9 @@ dependencies = [
     { name = "typer" },
     { name = "zero-3rdparty" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/84/3f/72dd38667e37de0c6015ba3d619ba0cd0a164bf797f51eb89ffb5f76484e/ask_shell-0.3.2.tar.gz", hash = "sha256:d591b6d426db6d9930435d2d1a0d1a76854069db3f5f0db4c424bbe594f8d61b", size = 30524, upload-time = "2026-02-17T22:01:29.409Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/23/ac/f760fb4054ef72ca4f5f46ec6128e1997d69e5375353cf8d1a8d1238d215/ask_shell-0.4.0.tar.gz", hash = "sha256:1e1b58cbb61016f156d08baece71b8161f8ec7cf96171dcc816f7cbbda57eb97", size = 30525, upload-time = "2026-02-25T07:15:45.965Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/26/8a/812b27a9d65262da5811d6a28628867b9e6797ebfc918c8b6824f1664d50/ask_shell-0.3.2-py3-none-any.whl", hash = "sha256:cd56c85b16c5e4edbeb4a5c795107f021e1c46ace77908eabc0dae63270079cd", size = 37695, upload-time = "2026-02-17T22:01:28.187Z" },
+    { url = "https://files.pythonhosted.org/packages/63/fb/506c327cd330bbb67bfcc96654b9a9f8d431c3ba5ac43984ec5a38d452f6/ask_shell-0.4.0-py3-none-any.whl", hash = "sha256:e3a057690f5c64b87591b168fe45c78cdc821e01e17503a6a3086d4e8980424b", size = 37696, upload-time = "2026-02-25T07:15:44.714Z" },
 ]
 
 [[package]]
@@ -484,7 +484,7 @@ wheels = [
 
 [[package]]
 name = "pkg-ext"
-version = "0.4.0"
+version = "0.4.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "ask-shell" },
@@ -493,9 +493,9 @@ dependencies = [
     { name = "tomlkit" },
     { name = "zero-3rdparty" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/43/b4/2e413ae7e0fa7e289dc70a454641cc93006f3bce714139aac9ce49ae4cb8/pkg_ext-0.4.0.tar.gz", hash = "sha256:ff91f82573a3ae7cd6f107a7064a3cc5e51cbd798b9a21d9fce0f41611d01ff7", size = 77571, upload-time = "2026-02-24T23:40:00.514Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/65/66/896027b6f2158c1fba04acf8e72ba027e9ea4997c2c7dc3f67e6c78ff00b/pkg_ext-0.4.1.tar.gz", hash = "sha256:2a6233385e0720195097d7733e247f586c10d79a7310fa14a8f04735292688b0", size = 77545, upload-time = "2026-02-25T10:59:47.016Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/a6/49/dc1e42b27cb386fc355eacf24ce5bce4212306cdf4836c9453ced4367731/pkg_ext-0.4.0-py3-none-any.whl", hash = "sha256:89065e52e243a86e4bc7dbcce8b217ceec165f6bcba11b90ccec343a7c38da95", size = 112099, upload-time = "2026-02-24T23:39:58.956Z" },
+    { url = "https://files.pythonhosted.org/packages/73/6a/a27227715cdb66ab3b0ff7a35a27dec8b9cf2e522f6210ccc31984726fe7/pkg_ext-0.4.1-py3-none-any.whl", hash = "sha256:01e5de39d98ef8e1b74f049a572cb330d80b022e5c43c39c5e4426357480398e", size = 112010, upload-time = "2026-02-25T10:59:45.804Z" },
 ]
 
 [[package]]
