@@ -20,8 +20,7 @@
 > **Since:** 0.2.0
 
 ```python
-def skip_unless_env(env_var: str) -> str:
-    ...
+def skip_unless_env(env_var: str) -> str: ...
 ```
 
 Returns the env var value or skips the test/fixture.
@@ -40,8 +39,7 @@ Returns the env var value or skips the test/fixture.
 > **Since:** 0.2.0
 
 ```python
-def static_env_vars(tmp_path, monkeypatch) -> StaticSettings:
-    ...
+def static_env_vars(tmp_path, monkeypatch) -> StaticSettings: ...
 ```
 
 ### Changes

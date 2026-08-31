@@ -35,6 +35,7 @@ Returns the value of an environment variable, or skips the test if it is not set
 ```python
 from pytest_model_lib import skip_unless_env
 
+
 @pytest.fixture
 def api_key():
     return skip_unless_env("API_KEY")
